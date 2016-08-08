@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 32,
+    "height": 32
+  },
+  "tileProperties": {
+    "0_0": {
+      "default": ""
+    }
+  }
+}

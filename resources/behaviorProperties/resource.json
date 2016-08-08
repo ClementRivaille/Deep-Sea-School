@@ -1,0 +1,332 @@
+{
+  "behaviors": {
+    "SharkBehavior": {
+      "scriptId": "7",
+      "line": 5,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "maxVelocity",
+          "type": "number"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "10",
+      "line": 3,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "depth",
+          "type": "number"
+        },
+        {
+          "name": "limit",
+          "type": "number"
+        }
+      ]
+    },
+    "TextBoxBehavior": {
+      "scriptId": "13",
+      "line": 5,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BigFishBehavior": {
+      "scriptId": "15",
+      "line": 5,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "friendshipIndex",
+          "type": "number"
+        },
+        {
+          "name": "talkDistance",
+          "type": "number"
+        }
+      ]
+    },
+    "FishBehavior": {
+      "scriptId": "17",
+      "line": 3,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "_specie",
+          "type": "string"
+        },
+        {
+          "name": "_life",
+          "type": "number"
+        },
+        {
+          "name": "_price",
+          "type": "number"
+        },
+        {
+          "name": "woundDistance",
+          "type": "number"
+        },
+        {
+          "name": "_invulnerable",
+          "type": "boolean"
+        }
+      ]
+    },
+    "GUIBehavior": {
+      "scriptId": "20",
+      "line": 6,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SalmonBehavior": {
+      "scriptId": "29",
+      "line": 38,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "direction",
+          "type": "number"
+        }
+      ]
+    },
+    "MovementBehavior": {
+      "scriptId": "29",
+      "line": 3,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "_frozen",
+          "type": "boolean"
+        }
+      ]
+    },
+    "AnglerBehavior": {
+      "scriptId": "29",
+      "line": 69,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "turning",
+          "type": "boolean"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "ClownBehavior": {
+      "scriptId": "29",
+      "line": 112,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "swiming",
+          "type": "boolean"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "TangBehavior": {
+      "scriptId": "29",
+      "line": 164,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        }
+      ]
+    },
+    "JellyfishBehavior": {
+      "scriptId": "29",
+      "line": 229,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "force",
+          "type": "number"
+        },
+        {
+          "name": "swimming",
+          "type": "boolean"
+        }
+      ]
+    },
+    "SeahorseBehavior": {
+      "scriptId": "29",
+      "line": 275,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "force",
+          "type": "number"
+        },
+        {
+          "name": "swimming",
+          "type": "boolean"
+        }
+      ]
+    },
+    "CrabBehavior": {
+      "scriptId": "29",
+      "line": 322,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "moving",
+          "type": "boolean"
+        }
+      ]
+    },
+    "BettaBehavior": {
+      "scriptId": "29",
+      "line": 385,
+      "parentBehavior": "MovementBehavior",
+      "properties": [
+        {
+          "name": "specie",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "turning",
+          "type": "boolean"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "stopping",
+          "type": "boolean"
+        }
+      ]
+    },
+    "StartBehavior": {
+      "scriptId": "37",
+      "line": 5,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TimerBehavior": {
+      "scriptId": "39",
+      "line": 3,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "time",
+          "type": "number"
+        }
+      ]
+    },
+    "EndBehavior": {
+      "scriptId": "41",
+      "line": 3,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RockBehavior": {
+      "scriptId": "17",
+      "line": 85,
+      "parentBehavior": "FishBehavior",
+      "properties": [
+        {
+          "name": "bonusActivated",
+          "type": "boolean"
+        },
+        {
+          "name": "_specie",
+          "type": "string"
+        }
+      ]
+    },
+    "CommandsInstructions": {
+      "scriptId": "13",
+      "line": 121,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timeFade",
+          "type": "number"
+        },
+        {
+          "name": "fadeInterval",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

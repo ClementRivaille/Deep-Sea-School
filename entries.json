@@ -1,0 +1,320 @@
+{
+  "nextEntryId": 66,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "sprites",
+      "type": null,
+      "children": [
+        {
+          "id": "1",
+          "name": "shark",
+          "type": "sprite"
+        },
+        {
+          "id": "22",
+          "name": "jellyfish",
+          "type": "sprite"
+        },
+        {
+          "id": "2",
+          "name": "fish",
+          "type": "sprite"
+        },
+        {
+          "id": "4",
+          "name": "background",
+          "type": "sprite"
+        },
+        {
+          "id": "21",
+          "name": "salmon",
+          "type": "sprite"
+        },
+        {
+          "id": "25",
+          "name": "crab",
+          "type": "sprite"
+        },
+        {
+          "id": "26",
+          "name": "betta",
+          "type": "sprite"
+        },
+        {
+          "id": "32",
+          "name": "textBox",
+          "type": "sprite"
+        },
+        {
+          "id": "30",
+          "name": "tang",
+          "type": "sprite"
+        },
+        {
+          "id": "24",
+          "name": "clownfish",
+          "type": "sprite"
+        },
+        {
+          "id": "33",
+          "name": "glasses",
+          "type": "sprite"
+        },
+        {
+          "id": "11",
+          "name": "tileset",
+          "type": "tileSet"
+        },
+        {
+          "id": "14",
+          "name": "font",
+          "type": "font"
+        },
+        {
+          "id": "27",
+          "name": "seahorse",
+          "type": "sprite"
+        },
+        {
+          "id": "28",
+          "name": "angler",
+          "type": "sprite"
+        },
+        {
+          "id": "31",
+          "name": "ataristocrat",
+          "type": "font"
+        },
+        {
+          "id": "35",
+          "name": "title",
+          "type": "sprite"
+        },
+        {
+          "id": "36",
+          "name": "title_background",
+          "type": "sprite"
+        },
+        {
+          "id": "54",
+          "name": "rocks",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "behaviors",
+      "type": null,
+      "children": [
+        {
+          "id": "7",
+          "name": "shark",
+          "type": "script"
+        },
+        {
+          "id": "10",
+          "name": "camera",
+          "type": "script"
+        },
+        {
+          "id": "13",
+          "name": "textBox",
+          "type": "script"
+        },
+        {
+          "id": "15",
+          "name": "bigFish",
+          "type": "script"
+        },
+        {
+          "id": "17",
+          "name": "fish",
+          "type": "script"
+        },
+        {
+          "id": "39",
+          "name": "timer",
+          "type": "script"
+        },
+        {
+          "id": "20",
+          "name": "GUI",
+          "type": "script"
+        },
+        {
+          "id": "29",
+          "name": "movements",
+          "type": "script"
+        },
+        {
+          "id": "41",
+          "name": "End",
+          "type": "script"
+        },
+        {
+          "id": "37",
+          "name": "start",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Main",
+      "type": "scene"
+    },
+    {
+      "id": "34",
+      "name": "Title Screen",
+      "type": "scene"
+    },
+    {
+      "id": "40",
+      "name": "End",
+      "type": "scene"
+    },
+    {
+      "id": "18",
+      "name": "scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "19",
+          "name": "scoreManager",
+          "type": "script"
+        },
+        {
+          "id": "16",
+          "name": "dialogsVendor",
+          "type": "script"
+        },
+        {
+          "id": "42",
+          "name": "Jukebox",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "map",
+      "type": "tileMap"
+    },
+    {
+      "id": "65",
+      "name": "bottom-fix",
+      "type": "tileMap"
+    },
+    {
+      "id": "43",
+      "name": "musics",
+      "type": null,
+      "children": [
+        {
+          "id": "44",
+          "name": "shark",
+          "type": "sound"
+        },
+        {
+          "id": "45",
+          "name": "clown",
+          "type": "sound"
+        },
+        {
+          "id": "46",
+          "name": "betta",
+          "type": "sound"
+        },
+        {
+          "id": "47",
+          "name": "angler",
+          "type": "sound"
+        },
+        {
+          "id": "48",
+          "name": "crab",
+          "type": "sound"
+        },
+        {
+          "id": "49",
+          "name": "jellyfish",
+          "type": "sound"
+        },
+        {
+          "id": "50",
+          "name": "salmon",
+          "type": "sound"
+        },
+        {
+          "id": "51",
+          "name": "seahorse",
+          "type": "sound"
+        },
+        {
+          "id": "52",
+          "name": "tang",
+          "type": "sound"
+        },
+        {
+          "id": "53",
+          "name": "rock",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "sfx",
+      "type": null,
+      "children": [
+        {
+          "id": "56",
+          "name": "attack",
+          "type": "sound"
+        },
+        {
+          "id": "57",
+          "name": "bitten",
+          "type": "sound"
+        },
+        {
+          "id": "58",
+          "name": "dead",
+          "type": "sound"
+        },
+        {
+          "id": "59",
+          "name": "teleport",
+          "type": "sound"
+        },
+        {
+          "id": "60",
+          "name": "bump",
+          "type": "sound"
+        },
+        {
+          "id": "61",
+          "name": "note",
+          "type": "sound"
+        },
+        {
+          "id": "62",
+          "name": "transform",
+          "type": "sound"
+        },
+        {
+          "id": "63",
+          "name": "rotate",
+          "type": "sound"
+        },
+        {
+          "id": "64",
+          "name": "intro",
+          "type": "sound"
+        }
+      ]
+    }
+  ]
+}
